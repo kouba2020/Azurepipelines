@@ -1,0 +1,23 @@
+{
+	"name": "alla_ds1_http_ro_http",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kouba_ls1_http_ro_http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "covid19/nationalcasedeath/csv/data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

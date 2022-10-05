@@ -1,0 +1,9 @@
+{
+	"name": "kouba-covid-reporting-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "83ad2448-d1ae-4763-87be-a29b2516e53d",
+		"tenantId": "2dcf5586-9ea8-4885-ab85-11936f59e16b"
+	}
+}
